@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "font-title";
+  src: url("./fonts/Gambetta-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "font-subtitle";
+  src: url("./fonts/Gambetta-Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "font-text";
+  src: url("./fonts/Gambetta-Medium.otf") format("opentype");
+}
+
+h1 {
+  font-family: "font-title";
+}
+
+h2 {
+  font-family: "font-subtitle";
+}
+
+p, a {
+  font-family: "font-text";
+}
