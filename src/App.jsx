@@ -4,6 +4,7 @@ import NavBar from './pages/components/nav/NavBar'
 import NavNetwork from './pages/components/nav/NavNetwork'
 import Gallery from "./pages/Gallery"
 import About from './pages/About'
+import BackImage from './pages/components/BackImage'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <NavNetwork/>
         <Gallery/>
         <About/>
+        <BackImage/>
       </main>
     </>
   )

@@ -1,6 +1,6 @@
 function SubTitle({subtitle}){
     return (
-        <h2 className="text-5xl my-5">
+        <h2 className="text-5xl my-5 text-amber-500">
             {subtitle}
         </h2>
     )

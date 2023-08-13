@@ -38,7 +38,7 @@ function About(){
                         text={"Thierry Loïc, Aspirant Boulanger et Futur Créateur de Saveurs"}
                     />
                 </div>
-                <img src={Image} height={500} width={500} className="object-cover rounded-md grayscale"></img>
+                <img src={Image} height={500} width={500} className="object-cover rounded-md grayscale shadow-xl"></img>
             </article>
         </section>
     )
