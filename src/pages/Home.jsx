@@ -7,7 +7,7 @@ import ButtonPrimary from "./components/Button/ButtonPrimary";
 function Home(){
 
     return (
-        <section className="flex gap-10 justify-center items-center min-h-screen w-full px-44" id="Home">
+        <section className="flex gap-10 justify-center items-center min-h-screen w-full px-10 md:px-44" id="Home">
             <article className="">
                 <FirstTitle
                     title={"Loïc Thierry"}
@@ -29,8 +29,8 @@ function Home(){
                     />
                 </span>
             </article>
-            <aside className="flex w-1/2">
-                <img src={photoProfil} alt="photo Loïc Thierry" className="rounded-xl h-96 shadow-lg"/>
+            <aside className="hidden 2xl:flex w-full">
+                <img src={photoProfil} alt="photo Loïc Thierry" className="rounded-xl h-96 shadow-lg mr-0 ml-auto"/>
             </aside>
         </section>
     )

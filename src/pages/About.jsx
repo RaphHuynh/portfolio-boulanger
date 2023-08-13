@@ -4,12 +4,12 @@ import Image from "../assets/loic_about.jpg"
 
 function About(){
     return (
-        <section className="min-h-screen w-full flex flex-col items-center justify-center px-44" id="About">
+        <section className="min-h-screen w-full flex flex-col items-center justify-center px-10 md:px-44 mt-10" id="About">
             <SubTitle 
             subtitle={"A propos de moi"}
             />
             <article className="flex gap-10">
-                <div className="text-justify w-2/3">
+                <div className="text-justify xl:w-2/3 mb-14">
                     <Paragraph
                         text={"Chers visiteurs,"}
                     />
@@ -38,7 +38,7 @@ function About(){
                         text={"Thierry Loïc, Aspirant Boulanger et Futur Créateur de Saveurs"}
                     />
                 </div>
-                <img src={Image} height={500} width={500} className="object-cover rounded-md grayscale shadow-xl"></img>
+                <img src={Image} height={500} width={500} className="hidden xl:block object-cover rounded-md grayscale shadow-xl"></img>
             </article>
         </section>
     )

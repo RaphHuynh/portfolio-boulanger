@@ -17,7 +17,7 @@ function Card(){
     ]
 
     return (
-        <article className="grid grid-cols-4 gap-4 w-full px-44">
+        <article className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-full px-10 md:px-44">
             {image.map((item) => (
                 <div className="bg-amber-100 border-gray-200 rounded-lg shadow pb-2">
                     <img src={item.url} className="object-cover h-72 w-full rounded-t-md"></img>

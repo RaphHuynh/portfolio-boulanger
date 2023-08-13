@@ -6,7 +6,7 @@ function Gallery(){
     return (
         <section className="flex flex-col min-h-screen w-full items-center justify-center" id="Gallery">
             <SubTitle
-                subtitle={"Galleries"}
+                subtitle={"Galeries"}
             /> 
             <Paragraph
                 text={"Voici mes créations."}
