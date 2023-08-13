@@ -19,7 +19,7 @@ function Card(){
     return (
         <article className="grid grid-cols-4 gap-4 w-full px-44">
             {image.map((item) => (
-                <div className="bg-amber-50 border-gray-200 rounded-lg shadow pb-2">
+                <div className="bg-amber-100 border-gray-200 rounded-lg shadow pb-2">
                     <img src={item.url} className="object-cover h-72 w-full rounded-t-md"></img>
                     <h2 className="text-xl p-2 text-center">
                         {item.title}
