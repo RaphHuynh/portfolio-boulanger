@@ -19,9 +19,9 @@ function Card(){
     return (
         <article className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-full px-10 md:px-44">
             {image.map((item) => (
-                <div className="bg-amber-100 border-gray-200 rounded-lg shadow pb-2">
+                <div className="bg-amber-100 rounded-lg shadow pb-2 dark:bg-slate-800">
                     <img src={item.url} className="object-cover h-72 w-full rounded-t-md"></img>
-                    <h2 className="text-xl p-2 text-center">
+                    <h2 className="md:text-xl p-2 text-center dark:text-amber-300">
                         {item.title}
                     </h2>
                     <div className="flex w-full justify-end">

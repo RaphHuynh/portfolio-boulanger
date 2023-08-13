@@ -3,6 +3,7 @@ import FirstTitle from "./components/title/FirstTitle"
 import SubTitle from "./components/title/SubTitle"
 import photoProfil from "../assets/loic_boulangerie.jpg"
 import ButtonPrimary from "./components/Button/ButtonPrimary";
+import CV from "../assets/cv_loic_thierry.pdf"
 
 function Home(){
 
@@ -20,17 +21,17 @@ function Home(){
                 />
                 <span>
                     <ButtonPrimary
-                        url={""}
+                        url={CV}
                         name={"CV"}
                     />
                     <ButtonPrimary
-                        url={""}
+                        url={"https://www.linkedin.com/in/loïc-thierry-4a296117b/?originalSubdomain=fr"}
                         name={"CONTACTEZ MOI"}
                     />
                 </span>
             </article>
             <aside className="hidden 2xl:flex w-full">
-                <img src={photoProfil} alt="photo Loïc Thierry" className="rounded-xl h-96 shadow-lg mr-0 ml-auto"/>
+                <img src={photoProfil} alt="photo Loïc Thierry" className="rounded-xl h-96 shadow-lg mr-0 ml-auto dark:sepia"/>
             </aside>
         </section>
     )

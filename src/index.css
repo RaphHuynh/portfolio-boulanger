@@ -21,6 +21,14 @@ body {
   background-color: #fafafa;
 }
 
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #020617;
+  }
+  
+}
+
 h1 {
   font-family: "font-title";
 }
