@@ -6,7 +6,7 @@ function NavBar(){
     ]
 
     return (
-        <nav className="fixed w-full flex items-center px-10 md:px-44 py-2 z-10">
+        <nav className="fixed w-full flex items-center px-10 md:px-44 py-2">
             <h2 className="hidden sm:block text-2xl text-transparent bg-clip-text bg-gradient-to-t from-yellow-400 to-amber-500">
                 Loïc Thierry
             </h2>
